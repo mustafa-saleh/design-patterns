@@ -14,6 +14,3 @@ const store = new Store("Vegs", [
 
 console.log(`${logger.count} total logs`);
 logger.logs.map((log) => console.log(`    ${log.msg} => ${log.timestamp}`));
-
-// Notes
-// Singleton is used when you only require one instance oF an objecct for example a logger class that needs to save all logs to certain storage 
